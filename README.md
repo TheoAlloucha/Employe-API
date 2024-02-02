@@ -29,11 +29,13 @@ L'API permet de :
 
 ## Méthodes
 
-- GET /api/employees : Récupère tous les employés (paginés).
-- GET /api/employees/{id} : Récupère un employé en fonction de son identifiant.
-- POST /api/employees : Ajoute un nouvel employé (nécessite ROLE_ADMIN).
-- PUT /api/employees/{id} : Modifie un employé (nécessite ROLE_ADMIN).
-- DELETE /api/employees/{id} : Supprime un employé (nécessite ROLE_ADMIN).
+- GET /api/users : Récupère tous les employés (paginés).
+- GET /api/users/{id} : Récupère un employé en fonction de son identifiant.
+- POST /api/users : Ajoute un nouvel employé (nécessite ROLE_ADMIN).
+- PUT /api/users/{id} : Modifie un employé (nécessite ROLE_ADMIN).
+- DELETE /api/users/{id} : Supprime un employé (nécessite ROLE_ADMIN).
+
+- DELETE /auth/ : Crée un jeton JWT (nécessite ROLE_USER).
 
 ## Droits d'accès
 
